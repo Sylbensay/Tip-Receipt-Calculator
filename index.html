@@ -8,6 +8,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Tip Calculator</title>
   </head>
   <body>
@@ -35,7 +37,14 @@
         </div>
         <button id="calculate">Calculate</button>
         <div id="totalTip">
-          <span id="tip"></span>
+          <span id="tip" class="total">Total: </span>
+        </div>
+        <div>
+          <form action="/action_page.php" class="Sign">
+            <label for="fname">Signature</label><br>
+            <input type="text" id="fname" value="" class="Sig"><br><br>
+            <input type="submit" value="Submit">
+          </form>
         </div>
       </div>
     </div>
